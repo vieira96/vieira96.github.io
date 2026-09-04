@@ -23,37 +23,9 @@ mobileMenu?.querySelectorAll('a').forEach((link) => link.addEventListener('click
 
 document.querySelector('[data-year]').textContent = new Date().getFullYear();
 
-const technologies = [
-  ['PHP', 'php'], ['Laravel', 'laravel'], ['Java', 'openjdk'], ['Spring Boot', 'springboot'],
-  ['JavaScript', 'javascript'], ['Vue.js', 'vuedotjs'], ['Nuxt', 'nuxt'], ['React', 'react'], ['Next.js', 'nextdotjs'],
-  ['MySQL', 'mysql'], ['PostgreSQL', 'postgresql'], ['Redis', 'redis'], ['Docker', 'docker'],
-  ['Git', 'git'], ['Tailwind CSS', 'tailwindcss'],
-];
-
-const techContainer = document.querySelector('[data-technologies]');
-if (techContainer) {
-  techContainer.innerHTML = technologies.map(([name, icon]) => `
-    <div class="tech-item"><img src="https://cdn.simpleicons.org/${icon}/93c5fd" alt="" loading="lazy" /><span>${name}</span></div>
-  `).join('');
-}
-
 const projectContainer = document.querySelector('[data-projects]');
 const carousel = document.querySelector('[data-carousel]');
-
-function projectCard(project) {
-  const tags = project.technologies.map((technology) => `<span>${technology}</span>`).join('');
-  const inner = `<div class="project-accent project-accent--${project.accent}"><span>${project.kind}</span><strong>${project.name}</strong></div><div class="project-info"><div><p class="font-mono text-[10px] uppercase tracking-[.16em] text-blue-300">${project.type}</p><p class="project-description">${project.description}</p><p class="project-contribution"><b>Minha participação</b>${project.contribution}</p><div class="tag-list">${tags}</div></div>${project.url ? '<span class="project-arrow material-symbols-outlined" aria-hidden="true">north_east</span>' : ''}</div>`;
-  return project.url
-    ? `<a class="project-card group" href="${project.url}" target="_blank" rel="noreferrer" aria-label="Abrir ${project.name}">${inner}</a>`
-    : `<article class="project-card">${inner}</article>`;
-}
-
-if (projectContainer) {
-  fetch('projects.json')
-    .then((response) => { if (!response.ok) throw new Error('Não foi possível carregar os projetos.'); return response.json(); })
-    .then((projects) => { projectContainer.innerHTML = projects.map(projectCard).join(''); initCarousel(projects.length); })
-    .catch(() => { projectContainer.innerHTML = '<p class="text-sm text-slate-500">Não foi possível carregar os projetos agora.</p>'; });
-}
+if (projectContainer) initCarousel(projectContainer.children.length);
 
 function initCarousel(total) {
   if (!carousel || total < 2) return;

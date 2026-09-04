@@ -1,33 +1,39 @@
-# Portfólio
+# Samuel Vieira — Portfólio
 
-Site estático em HTML, CSS e JavaScript, preparado para publicar no GitHub Pages.
+Portfólio profissional de Samuel Vieira, desenvolvedor Backend e Full Stack com experiência em sistemas web e APIs em produção.
 
-## Publicar no GitHub Pages
+**Site:** https://vieira96.github.io/portfolio/
 
-1. Crie um repositório no GitHub e envie estes arquivos para a branch `main`.
-2. No repositório, abra **Settings → Pages**.
-3. Em **Build and deployment**, selecione **Deploy from a branch**.
-4. Escolha a branch `main`, a pasta `/(root)` e salve.
+![Prévia visual do portfólio](assets/portfolio-preview.png)
 
-O Tailwind é carregado pelo CDN, portanto não há instalação nem processo de build.
+## Perfil
 
-## Projetos
+- PHP/Laravel como principal stack profissional.
+- Atuação Full Stack com Vue.js, Nuxt.js, Next.js e JavaScript.
+- Em evolução com Java 21 e Spring Boot.
+- Aberto a oportunidades remotas Backend ou Full Stack.
 
-Edite apenas o arquivo `projects.json` para incluir, remover ou alterar cards. Cada projeto aceita:
+## Tecnologias do site
 
-```json
-{
-  "name": "Nome do projeto",
-  "shortName": "NOME",
-  "type": "Projeto pessoal ou Projeto de empresa · Nome",
-  "kind": "Uma categoria curta",
-  "description": "Resumo do que foi feito.",
-  "technologies": ["Tecnologia 1", "Tecnologia 2"],
-  "url": "https://github.com/seu-usuario/seu-projeto",
-  "accent": "blue"
-}
+HTML, CSS, JavaScript, Tailwind CSS compilado, Google Fonts e Material Symbols.
+
+Os projetos são mantidos em [`projects.json`](projects.json) e renderizados como HTML estático durante o build, para que seu conteúdo seja visível a buscadores e leitores sem JavaScript.
+
+## Desenvolvimento local
+
+```bash
+npm install
+npm run build
+npm run dev
 ```
 
-`url` pode ser `null` quando o projeto não tiver site ou repositório público. As cores disponíveis em `accent` são `blue`, `purple`, `orange`, `green` e `slate`.
+Depois, abra `http://localhost:8000`.
 
-As logos de tecnologias usam o CDN do Simple Icons; portanto, a página precisa de conexão com a internet para mostrá-las.
+## Publicação
+
+O projeto é estático e pode ser publicado diretamente no GitHub Pages. Antes de enviar alterações, execute `npm run build` para atualizar os cards de projetos e o CSS compilado.
+
+## Contato
+
+- [LinkedIn](https://www.linkedin.com/in/samuel-vieira-da-silva-05407a207)
+- [GitHub](https://github.com/vieira96)
