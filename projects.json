@@ -28,7 +28,7 @@
     "kind": "Recursos educacionais digitais · INJC/UFRJ",
     "description": "Plataforma gratuita para docentes e discentes de Nutrição e Gastronomia, com recursos digitais, trilhas de aprendizagem, interações e gestão administrativa.",
     "contribution": "Participação desde o início, desenvolvendo funcionalidades, regras de negócio, autenticação e gestão de conteúdos.",
-    "technologies": ["Laravel", "Vue.js", "Nuxt", "MySQL"],
+    "technologies": ["Laravel", "Vue.js", "Nuxt", "MySQL", "Docker"],
     "url": "https://joca.levantelab.com.br/",
     "accent": "orange"
   },
@@ -39,7 +39,7 @@
     "kind": "Plataforma inclusiva · Humboldt/UFSC",
     "description": "Plataforma multilíngue para a comunidade surda, com produção e indexação de conteúdos em línguas de sinais, busca e aprendizagem colaborativa.",
     "contribution": "Colaboração na evolução de recursos de usuários, conteúdos, busca e experiência multilíngue da plataforma.",
-    "technologies": ["Laravel", "Vue.js", "Acessibilidade", "Multilíngue"],
+    "technologies": ["Laravel", "Vue.js", "Docker", "Acessibilidade", "Multilíngue"],
     "url": "https://visuolab.levantelab.com.br/pt",
     "accent": "green"
   },
@@ -50,7 +50,7 @@
     "kind": "Ecossistema digital para cultivo medicinal",
     "description": "Plataforma que integra marketplace, comunidade, monitoramento em tempo real e planos de manejo para cultivo medicinal.",
     "contribution": "Desenvolvi integralmente os sistemas de gamificação e de cursos, além de contribuir em outras frentes do produto.",
-    "technologies": ["Marketplace", "Monitoramento", "IoT", "Comunidade"],
+    "technologies": ["Laravel", "Nuxt", "Docker"],
     "url": "https://ganza.app/",
     "accent": "purple"
   },
@@ -61,7 +61,7 @@
     "kind": "Conteúdo e comunidade de cultivo",
     "description": "Plataforma sobre cultivo, biodiversidade, produtos naturais e renda ética a partir de pequenos espaços.",
     "contribution": "Maior participação no desenvolvimento do blog e do painel administrativo para gestão dos conteúdos.",
-    "technologies": ["Plataforma web", "Conteúdo", "Comunidade"],
+    "technologies": ["Laravel", "Next.js", "Docker", "Backend", "Frontend"],
     "url": "https://hortaquerende.com.br/",
     "accent": "green"
   },
@@ -72,7 +72,7 @@
     "kind": "Ciência cidadã e monitoramento costeiro-marinho",
     "description": "Plataforma colaborativa de monitoramento ambiental, conectando comunidades, pesquisadores e instituições na proteção dos ecossistemas costeiro-marinhos.",
     "contribution": "Iniciei o desenvolvimento da plataforma e sigo evoluindo recursos de pesquisa e registro de dados para o monitoramento ambiental colaborativo.",
-    "technologies": ["Mapas", "Coletas", "Dados", "Colaboração"],
+    "technologies": ["Laravel", "Next.js", "Docker", "Backend", "Frontend"],
     "url": "https://cientistas-do-mar.levantelab.com.br/",
     "accent": "blue"
   },
@@ -83,7 +83,7 @@
     "kind": "Pesquisa e documentação de línguas de sinais",
     "description": "Ferramenta multilíngue para buscar, categorizar e analisar sinais, com gestão de permissões, consultas públicas e recursos de acessibilidade.",
     "contribution": "Evolução de funcionalidades de pesquisa e administração, considerando acessibilidade e internacionalização.",
-    "technologies": ["i18n", "Acessibilidade", "Gestão de usuários", "Pesquisa"],
+    "technologies": ["Docker", "i18n", "Acessibilidade", "Gestão de usuários", "Pesquisa"],
     "url": "https://signbank.levantelab.com.br/en",
     "accent": "orange"
   }
