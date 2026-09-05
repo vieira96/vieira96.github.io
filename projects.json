@@ -11,15 +11,15 @@
     "accent": "blue"
   },
   {
-    "name": "API REST de Biblioteca",
-    "shortName": "LIBRARY",
+    "name": "Auth API",
+    "shortName": "AUTH",
     "type": "Projeto pessoal",
-    "kind": "API REST com Java",
-    "description": "Gerenciamento de autores e livros com filtros, paginação, validações, documentação OpenAPI e ambiente containerizado.",
-    "contribution": "Projeto autoral: API REST em camadas, persistência, migrações e testes automatizados.",
-    "technologies": ["Java 21", "Spring Boot", "PostgreSQL", "Flyway", "Docker"],
-    "url": "https://github.com/vieira96/api-livraria-java-spring-boot",
-    "accent": "purple"
+    "kind": "Autenticação REST com Node.js",
+    "description": "API de autenticação com cadastro, login, JWT, validação de dados, hash de senha e migrations versionadas.",
+    "contribution": "Projeto autoral: arquitetura modular, regras de autenticação, Prisma, PostgreSQL e ambiente Docker.",
+    "technologies": ["Node.js", "Express", "TypeScript", "Prisma", "PostgreSQL", "Docker"],
+    "url": "https://github.com/vieira96/auth-express",
+    "accent": "blue"
   },
   {
     "name": "Plataforma JOCA",
