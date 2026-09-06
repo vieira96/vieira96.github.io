@@ -2,12 +2,14 @@
   "name": "samuel-vieira-portfolio",
   "private": true,
   "scripts": {
-    "build:projects": "node scripts/build-projects.js",
+    "build:projects": "node scripts/build-projects.js && prettier --write index.html",
     "build:css": "tailwindcss -i ./tailwind.input.css -o ./assets/css/tailwind.css --minify",
     "build": "npm run build:projects && npm run build:css",
+    "format": "prettier --write index.html styles.css script.js scripts/build-projects.js tailwind.config.js tailwind.input.css package.json README.md",
     "dev": "python3 -m http.server 8000"
   },
   "devDependencies": {
+    "prettier": "3.5.3",
     "tailwindcss": "3.4.17"
   }
 }

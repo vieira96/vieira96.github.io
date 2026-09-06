@@ -15,11 +15,13 @@ menuButton?.addEventListener('click', () => {
   menuButton.setAttribute('aria-expanded', String(isOpen));
 });
 
-mobileMenu?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
-  mobileMenu.classList.remove('is-open');
-  menuButton.classList.remove('is-open');
-  menuButton.setAttribute('aria-expanded', 'false');
-}));
+mobileMenu?.querySelectorAll('a').forEach((link) =>
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('is-open');
+    menuButton.classList.remove('is-open');
+    menuButton.setAttribute('aria-expanded', 'false');
+  }),
+);
 
 document.querySelector('[data-year]').textContent = new Date().getFullYear();
 
@@ -35,22 +37,34 @@ function initCarousel(total) {
   const previous = carousel.querySelector('[data-carousel-prev]');
   const next = carousel.querySelector('[data-carousel-next]');
   let current = 0;
-  const itemsPerPage = () => window.matchMedia('(min-width: 768px)').matches ? 2 : 1;
+  const itemsPerPage = () => (window.matchMedia('(min-width: 768px)').matches ? 2 : 1);
   const pageCount = () => Math.ceil(total / itemsPerPage());
 
   function renderDots() {
-    dots.innerHTML = Array.from({ length: pageCount() }, (_, index) => `<button class="carousel-dot${index === current ? ' is-active' : ''}" type="button" aria-label="Ir para página ${index + 1} dos projetos"></button>`).join('');
-    [...dots.querySelectorAll('button')].forEach((dot, index) => dot.addEventListener('click', () => show(index)));
+    dots.innerHTML = Array.from(
+      { length: pageCount() },
+      (_, index) =>
+        `<button class="carousel-dot${index === current ? ' is-active' : ''}" type="button" aria-label="Ir para página ${index + 1} dos projetos"></button>`,
+    ).join('');
+    [...dots.querySelectorAll('button')].forEach((dot, index) =>
+      dot.addEventListener('click', () => show(index)),
+    );
   }
 
   function show(index) {
     const pages = pageCount();
     current = (index + pages) % pages;
     track.style.transform = `translateX(-${current * 100}%)`;
-    [...dots.querySelectorAll('button')].forEach((dot, dotIndex) => dot.classList.toggle('is-active', dotIndex === current));
+    [...dots.querySelectorAll('button')].forEach((dot, dotIndex) =>
+      dot.classList.toggle('is-active', dotIndex === current),
+    );
   }
   previous.addEventListener('click', () => show(current - 1));
   next.addEventListener('click', () => show(current + 1));
-  window.addEventListener('resize', () => { current = 0; renderDots(); show(0); });
+  window.addEventListener('resize', () => {
+    current = 0;
+    renderDots();
+    show(0);
+  });
   renderDots();
 }
