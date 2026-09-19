@@ -18,6 +18,28 @@
     "accent": "blue"
   },
   {
+    "name": "Library App",
+    "shortName": "LIBRARY",
+    "type": "Projeto pessoal",
+    "kind": "Interface Angular para gestão de biblioteca",
+    "description": "Frontend Angular para gerenciamento de biblioteca, integrado à Library API em Java/Spring Boot para autenticação e operações de autores e livros.",
+    "contribution": "Projeto autoral: frontend Angular com autenticação JWT, rotas protegidas, interceptor, renovação de sessão e controle de fluxo assíncrono com RxJS.",
+    "technologies": ["Angular 19", "TypeScript", "Tailwind CSS"],
+    "url": "https://github.com/vieira96/front-library-angular",
+    "accent": "orange"
+  },
+  {
+    "name": "Library API",
+    "shortName": "LIBRARY",
+    "type": "Projeto pessoal",
+    "kind": "API REST de biblioteca com Spring Boot",
+    "description": "API para cadastro e consulta de autores e livros, com autenticação JWT, filtros, paginação, migrations e testes automatizados.",
+    "contribution": "Projeto autoral: API em camadas, autenticação, persistência, controle de tentativas de login e ambiente Docker.",
+    "technologies": ["Java 21", "Spring Boot", "PostgreSQL", "Redis", "Flyway", "Docker"],
+    "url": "https://github.com/vieira96/api-livraria-java-spring-boot",
+    "accent": "purple"
+  },
+  {
     "name": "FlowdeskAPI",
     "shortName": "FLOWDESK",
     "type": "Projeto pessoal",

@@ -10,7 +10,7 @@ Portfólio profissional de Samuel Vieira, desenvolvedor Backend e Full Stack com
 
 - PHP/Laravel como principal stack profissional.
 - Atuação Full Stack com Vue.js, Nuxt.js, Next.js e JavaScript.
-- Em evolução com Node.js, Express e NestJS.
+- Em evolução no backend com Node.js, Express, NestJS, Java e Spring Boot; no frontend, com Angular.
 - Aberto a oportunidades remotas Backend ou Full Stack.
 
 ## Tecnologias do site
