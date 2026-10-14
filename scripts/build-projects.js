@@ -6,13 +6,9 @@ const htmlPath = path.join(root, 'index.html');
 const projects = JSON.parse(fs.readFileSync(path.join(root, 'projects.json'), 'utf8'));
 
 const technologyIcons = {
-  'Angular 19': 'angular',
   Docker: 'docker',
   Express: 'express',
-  Flyway: 'flyway',
   Git: 'git',
-  Java: 'openjdk',
-  'Java 21': 'openjdk',
   JavaScript: 'javascript',
   Laravel: 'laravel',
   MySQL: 'mysql',
@@ -25,7 +21,9 @@ const technologyIcons = {
   PostgreSQL: 'postgresql',
   Prisma: 'prisma',
   React: 'react',
+  RabbitMQ: 'rabbitmq',
   Redis: 'redis',
+  'Socket.IO': 'socketdotio',
   'Spring Boot': 'springboot',
   'Tailwind CSS': 'tailwindcss',
   TypeScript: 'typescript',

@@ -1,6 +1,6 @@
-# Samuel Vieira — Portfólio
+# Samuel Vieira da Silva de Oliveira — Portfólio
 
-Portfólio profissional de Samuel Vieira, desenvolvedor Backend e Full Stack com experiência em sistemas web e APIs em produção.
+Este é o portfólio de Samuel Vieira da Silva de Oliveira. Trabalho com desenvolvimento web desde 2021, principalmente com PHP e Laravel no backend e JavaScript e TypeScript no frontend.
 
 **Site:** https://vieira96.github.io/portfolio/
 
@@ -8,10 +8,10 @@ Portfólio profissional de Samuel Vieira, desenvolvedor Backend e Full Stack com
 
 ## Perfil
 
-- PHP/Laravel como principal stack profissional.
-- Atuação Full Stack com Vue.js, Nuxt.js, Next.js e JavaScript.
-- Em evolução no backend com Node.js, Express, NestJS, Java e Spring Boot; no frontend, com Angular.
-- Aberto a oportunidades remotas Backend ou Full Stack.
+- No trabalho, desenvolvo e mantenho sistemas web e APIs com PHP/Laravel.
+- No frontend, trabalho com JavaScript, TypeScript, Vue.js, Nuxt.js, React.js e Next.js.
+- Nos projetos pessoais, desenvolvo APIs e serviços com Node.js, Express e NestJS.
+- Estou aberto a oportunidades remotas Backend ou Full Stack.
 
 ## Tecnologias do site
 
@@ -35,5 +35,5 @@ O projeto é estático e pode ser publicado diretamente no GitHub Pages. Antes d
 
 ## Contato
 
-- [LinkedIn](https://www.linkedin.com/in/samuel-vieira-da-silva-05407a207)
+- [LinkedIn](https://www.linkedin.com/in/samuel-vieira-da-silva-de-oliveira)
 - [GitHub](https://github.com/vieira96)

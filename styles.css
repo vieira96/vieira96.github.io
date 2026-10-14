@@ -631,6 +631,14 @@ body {
     display: none;
   }
 }
+@media (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+  .mobile-menu.is-open {
+    display: none;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
