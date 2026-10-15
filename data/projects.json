@@ -24,8 +24,8 @@
     "shortName": "AI PORTFOLIO",
     "type": "Projeto pessoal · Em desenvolvimento",
     "kind": "Portfólio, chat com IA e currículos ATS",
-    "description": "Plataforma de portfólio com dashboard, chat com IA e geração de currículos ATS personalizados para diferentes vagas.",
-    "contribution": "Estou desenvolvendo a aplicação de ponta a ponta, incluindo a API em NestJS, a interface em Next.js, o dashboard, o chat com IA e o fluxo de geração de currículos.",
+    "description": "Plataforma de portfólio com área pública e dashboard para gerenciar perfil, experiências, projetos e habilidades. Inclui chat com IA em tempo real e geração de currículos editáveis, otimizados para ATS.",
+    "contribution": "Desenvolvo o projeto de ponta a ponta: API NestJS, aplicação Next.js, autenticação segura, persistência de dados, processamento assíncrono do chat e fluxo de criação e exportação de currículos.",
     "technologies": [
       "Node.js",
       "NestJS",
