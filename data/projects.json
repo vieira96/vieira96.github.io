@@ -21,9 +21,9 @@
     "name": "AI Portfolio",
     "shortName": "AI PORTFOLIO",
     "type": "Projeto pessoal · Em desenvolvimento",
-    "kind": "Portfólio com assistente de inteligência artificial",
-    "description": "Estou criando um portfólio com uma API em NestJS, interface Next.js e um assistente que responde a perguntas sobre projetos e experiência.",
-    "contribution": "Cuido da API, da autenticação e do cadastro de projetos e tecnologias. Também estou trabalhando na integração do assistente de IA.",
+    "kind": "Portfólio, chat com IA e currículos ATS",
+    "description": "Plataforma de portfólio com dashboard, chat com IA e geração de currículos ATS personalizados para diferentes vagas.",
+    "contribution": "Estou desenvolvendo a aplicação de ponta a ponta, incluindo a API em NestJS, a interface em Next.js, o dashboard, o chat com IA e o fluxo de geração de currículos.",
     "technologies": [
       "Node.js",
       "NestJS",

@@ -17,7 +17,7 @@ Este é o portfólio de Samuel Vieira da Silva de Oliveira. Trabalho com desenvo
 
 HTML, CSS, JavaScript, Tailwind CSS compilado, Google Fonts e Material Symbols.
 
-Os projetos são mantidos em [`projects.json`](projects.json) e renderizados como HTML estático durante o build, para que seu conteúdo seja visível a buscadores e leitores sem JavaScript.
+Os projetos ficam em [`data/projects.json`](data/projects.json), e as tecnologias agrupadas por categoria ficam em [`data/technologies.json`](data/technologies.json). O navegador lê os dois arquivos e monta os cards automaticamente. Para adicionar ou atualizar projetos e tecnologias, edite os JSONs e publique os arquivos; não é necessário copiar os cards para o HTML. Como os dados são carregados com `fetch`, abra o site por um servidor HTTP (por exemplo, `npm run dev`), não diretamente pelo arquivo `index.html`.
 
 ## Desenvolvimento local
 
@@ -31,7 +31,7 @@ Depois, abra `http://localhost:8000`.
 
 ## Publicação
 
-O projeto é estático e pode ser publicado diretamente no GitHub Pages. Antes de enviar alterações, execute `npm run build` para atualizar os cards de projetos e o CSS compilado.
+O projeto é estático e pode ser publicado diretamente no GitHub Pages. Antes de enviar alterações, execute `npm run build` para validar os arquivos JSON e atualizar o CSS compilado.
 
 ## Contato
 

@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "name": "Backend",
+      "showInSummary": true,
+      "technologies": [
+        { "name": "PHP", "icon": "php" },
+        { "name": "Laravel", "icon": "laravel" },
+        { "name": "Node.js", "icon": "nodedotjs" },
+        { "name": "Express", "icon": "express" },
+        { "name": "NestJS", "icon": "nestjs" },
+        { "name": "MySQL", "icon": "mysql" },
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "Redis", "icon": "redis" }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "showInSummary": true,
+      "technologies": [
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "Vue.js", "icon": "vuedotjs" },
+        { "name": "Nuxt.js", "icon": "nuxt" },
+        { "name": "React.js", "icon": "react" },
+        { "name": "Next.js", "icon": "nextdotjs" },
+        { "name": "Tailwind CSS", "icon": "tailwindcss" }
+      ]
+    },
+    {
+      "name": "Ferramentas",
+      "showInSummary": false,
+      "technologies": [
+        { "name": "Docker", "icon": "docker" },
+        { "name": "Git", "icon": "git" }
+      ]
+    }
+  ]
+}
