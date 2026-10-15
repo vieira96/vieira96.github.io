@@ -5,7 +5,7 @@
     "validate:data": "node scripts/validate-data.js",
     "build:css": "tailwindcss -i ./tailwind.input.css -o ./assets/css/tailwind.css --minify",
     "build": "npm run validate:data && npm run build:css",
-    "format": "prettier --write index.html styles.css script.js scripts/validate-data.js tailwind.config.js tailwind.input.css package.json README.md data/projects.json data/technologies.json",
+    "format": "prettier --write index.html styles.css script.js scripts/validate-data.js tailwind.config.js tailwind.input.css package.json README.md data/projects.json data/experiences.json data/technologies.json",
     "dev": "python3 -m http.server 8000"
   },
   "devDependencies": {

@@ -1,22 +1,18 @@
 {
   "categories": [
     {
-      "name": "Backend",
-      "showInSummary": true,
+      "name": "PHP & Laravel",
+      "description": "Stack em que construí minha experiência profissional no backend. Desenvolvi e mantive sistemas e APIs, atuando com regras de negócio, autenticação, permissões e integrações.",
       "technologies": [
         { "name": "PHP", "icon": "php" },
         { "name": "Laravel", "icon": "laravel" },
-        { "name": "Node.js", "icon": "nodedotjs" },
-        { "name": "Express", "icon": "express" },
-        { "name": "NestJS", "icon": "nestjs" },
         { "name": "MySQL", "icon": "mysql" },
-        { "name": "PostgreSQL", "icon": "postgresql" },
         { "name": "Redis", "icon": "redis" }
       ]
     },
     {
-      "name": "Frontend",
-      "showInSummary": true,
+      "name": "JavaScript & TypeScript",
+      "description": "Experiência profissional construindo interfaces e aplicações web. Trabalho com Vue.js e Nuxt.js, além de React.js e Next.js.",
       "technologies": [
         { "name": "JavaScript", "icon": "javascript" },
         { "name": "TypeScript", "icon": "typescript" },
@@ -28,8 +24,21 @@
       ]
     },
     {
-      "name": "Ferramentas",
-      "showInSummary": false,
+      "name": "APIs com Node.js",
+      "description": "Nos projetos pessoais, venho desenvolvendo APIs e serviços e aprofundando meus conhecimentos no ecossistema Node.js.",
+      "technologies": [
+        { "name": "Node.js", "icon": "nodedotjs" },
+        { "name": "Express", "icon": "express" },
+        { "name": "NestJS", "icon": "nestjs" },
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "Prisma", "icon": "prisma" },
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "Redis", "icon": "redis" }
+      ]
+    },
+    {
+      "name": "Ferramentas & ambiente",
+      "description": "Ferramentas que uso no desenvolvimento e para manter ambientes consistentes entre a minha máquina e os projetos.",
       "technologies": [
         { "name": "Docker", "icon": "docker" },
         { "name": "Git", "icon": "git" }

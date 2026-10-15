@@ -1,0 +1,44 @@
+[
+  {
+    "company": "Levante Lab",
+    "companyUrl": "https://levantelab.com.br/",
+    "date": "mai. 2021 — out. 2026",
+    "role": "Desenvolvedor Full Stack",
+    "context": "Sistemas web · APIs",
+    "summary": "Desenvolvimento e manutenção de sistemas web e APIs REST em produção, com PHP/Laravel no backend e JavaScript e TypeScript no frontend. Atuação com Vue.js, Nuxt.js, React.js e Next.js.",
+    "technologies": [
+      "PHP",
+      "Laravel",
+      "JavaScript",
+      "TypeScript",
+      "Vue.js",
+      "Nuxt.js",
+      "React.js",
+      "Next.js",
+      "MySQL",
+      "Redis",
+      "Docker"
+    ],
+    "detailsLabel": "Entregas e responsabilidades",
+    "details": [
+      "Desenvolvi sozinho os sistemas de cursos e de gamificação do Ganza.",
+      "Iniciei o desenvolvimento do Cientistas do Mar e continuei evoluindo a plataforma.",
+      "No Horta que Rende, minha principal contribuição foi o blog e seu painel administrativo.",
+      "Também trabalhei em regras de negócio, autenticação, permissões, integrações e manutenção de sistemas em produção."
+    ]
+  },
+  {
+    "company": "PUZL Place",
+    "date": "abr. 2021",
+    "role": "Desenvolvedor de Software",
+    "context": "ERP · Concreteiras",
+    "summary": "Minha primeira experiência profissional em desenvolvimento, atuando em um sistema ERP voltado ao segmento de concreteiras.",
+    "technologies": ["PHP", "Laravel", "MySQL", "Docker", "PHPUnit"],
+    "detailsLabel": "Atuação e tecnologias",
+    "details": [
+      "Atuação no desenvolvimento de um sistema ERP para o segmento de concreteiras.",
+      "Desenvolvimento com PHP e Laravel, utilizando MySQL para persistência de dados.",
+      "Uso de Docker no ambiente e PHPUnit para testes automatizados."
+    ]
+  }
+]

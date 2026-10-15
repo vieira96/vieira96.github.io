@@ -112,7 +112,7 @@
 
     <link
       rel="stylesheet"
-      href="styles.css?v=3"
+      href="styles.css?v=4"
     />
   </head>
 
@@ -177,6 +177,13 @@
 
           <a
             class="nav-link"
+            href="#stack"
+          >
+            Stack
+          </a>
+
+          <a
+            class="nav-link"
             href="#contato"
           >
             Contato
@@ -209,6 +216,7 @@
         <a href="#sobre">Sobre</a>
         <a href="#experiencia">Experiência</a>
         <a href="#projetos">Projetos</a>
+        <a href="#stack">Stack</a>
         <a href="#contato">Contato</a>
       </nav>
     </header>
@@ -299,11 +307,11 @@
             <h2
               class="text-3xl font-bold leading-tight tracking-[-.05em] text-white sm:text-4xl"
             >
-              Trabalho com sistemas web e APIs em produção.
+              Experiência com sistemas web e APIs em produção.
             </h2>
 
             <p class="mt-7 max-w-2xl text-base leading-8 text-slate-400">
-              Desde 2021, trabalho na criação e manutenção de sistemas web e APIs. Minha
+              Desde 2021, atuei na criação e manutenção de sistemas web e APIs. Minha
               experiência profissional é principalmente com
               <strong class="font-semibold text-slate-200">
                 PHP e Laravel no backend </strong
@@ -315,9 +323,9 @@
             </p>
 
             <p class="mt-4 max-w-2xl text-base leading-8 text-slate-400">
-              No dia a dia, desenvolvo funcionalidades e regras de negócio, trabalho com
+              Desenvolvi funcionalidades e regras de negócio, trabalhei com
               autenticação, permissões, integrações, MySQL, Redis, filas e processamento
-              assíncrono. Também cuido da correção de bugs e da manutenção dos sistemas
+              assíncrono. Também cuidei da correção de bugs e da manutenção dos sistemas
               em produção.
             </p>
 
@@ -360,80 +368,18 @@
         class="border-b border-line bg-surface/30"
       >
         <div class="mx-auto max-w-6xl px-6 py-20 lg:px-8 lg:py-24">
-          <div class="grid gap-12 lg:grid-cols-[.7fr_1.3fr]">
+          <div class="experience-heading">
             <p class="section-label">02 / Experiência</p>
 
-            <div class="experience-list">
-              <article class="experience-item">
-                <div class="flex flex-wrap justify-between gap-3">
-                  <h3>
-                    Desenvolvedor Full Stack
+            <h2 class="experience-title">Onde tenho contribuído<span>.</span></h2>
+          </div>
 
-                    <span>
-                      ·
-                      <a
-                        class="company-link"
-                        href="https://levantelab.com.br/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Levante Lab ↗
-                      </a>
-                    </span>
-                  </h3>
-
-                  <p>mai. 2021 — atual</p>
-                </div>
-
-                <p>
-                  Desenvolvo e mantenho sistemas web e APIs REST em produção. Trabalho
-                  principalmente com PHP/Laravel no backend e JavaScript e TypeScript no
-                  frontend, incluindo Vue.js, Nuxt.js, React.js e Next.js.
-                </p>
-
-                <p>
-                  Cuido de regras de negócio, autenticação e permissões, integrações,
-                  MySQL, Redis e processamento assíncrono. Também investigo e corrijo
-                  problemas em produção e desenvolvo novas funcionalidades.
-                </p>
-
-                <p>
-                  Participei de projetos desde o início e acompanhei a entrega e a
-                  evolução das plataformas em produção.
-                </p>
-
-                <p>
-                  Utilização de Git/GitLab, Docker, Docker Compose e Linux no ambiente
-                  de desenvolvimento.
-                </p>
-
-                <div class="tag-list">
-                  <span>Laravel</span>
-                  <span>Vue.js</span>
-                  <span>Nuxt.js</span>
-                  <span>Next.js</span>
-                  <span>MySQL</span>
-                  <span>Redis</span>
-                  <span>Docker</span>
-                </div>
-              </article>
-
-              <article class="experience-item">
-                <div class="flex flex-wrap justify-between gap-3">
-                  <h3>
-                    Desenvolvedor de Software
-                    <span>· PUZL Place</span>
-                  </h3>
-
-                  <p>abr. 2021</p>
-                </div>
-
-                <p>
-                  Atuação em sistema ERP voltado ao segmento de concreteiras, em minha
-                  primeira experiência profissional em desenvolvimento.
-                </p>
-              </article>
-            </div>
+          <div
+            class="experience-list"
+            data-experiences
+            aria-live="polite"
+          >
+            <p class="project-load-error">Carregando experiências...</p>
           </div>
         </div>
       </section>
@@ -442,93 +388,118 @@
         id="projetos"
         class="mx-auto max-w-6xl px-6 py-20 lg:px-8 lg:py-24"
       >
-        <div class="mb-10 flex flex-wrap items-end justify-between gap-6">
+        <div class="mb-8 flex flex-wrap items-end justify-between gap-6">
           <div>
-            <p class="section-label">03 / Seleção de trabalhos</p>
+            <p class="section-label">03 / Projetos</p>
 
             <h2
-              class="mt-5 text-4xl font-bold tracking-[-.055em] text-white sm:text-5xl"
+              class="mt-4 text-4xl font-bold tracking-[-.055em] text-white sm:text-5xl"
             >
-              Projetos em destaque.
+              Aplicações & interfaces<span class="text-blue-400">.</span>
             </h2>
           </div>
+
+          <p class="font-mono text-[10px] uppercase tracking-[.12em] text-slate-500">
+            // projetos pessoais e profissionais
+          </p>
         </div>
 
         <div
-          class="project-carousel"
-          data-carousel
-          aria-roledescription="carrossel"
-          aria-label="Projetos em destaque"
+          class="project-filters"
+          role="group"
+          aria-label="Filtrar projetos"
         >
-          <div class="carousel-viewport">
-            <!-- projects:start -->
-            <div
-              class="carousel-track"
-              data-projects
-            >
-              <p class="project-load-error">Carregando projetos...</p>
-            </div>
-            <!-- projects:end -->
-          </div>
+          <button
+            class="project-filter is-active"
+            type="button"
+            data-project-filter="all"
+            aria-pressed="true"
+          >
+            <span>Todos</span><span data-filter-count="all">00</span>
+          </button>
 
-          <div class="mt-6 flex items-center justify-between gap-6">
-            <div
-              class="carousel-dots"
-              data-carousel-dots
-              aria-label="Navegação dos projetos"
-            ></div>
+          <button
+            class="project-filter"
+            type="button"
+            data-project-filter="personal"
+            aria-pressed="false"
+          >
+            <span>Pessoais</span><span data-filter-count="personal">00</span>
+          </button>
 
-            <div class="flex gap-2">
-              <button
-                class="carousel-button"
-                type="button"
-                data-carousel-prev
-                aria-label="Projeto anterior"
-              >
-                <span
-                  class="material-symbols-outlined"
-                  aria-hidden="true"
-                >
-                  arrow_back
-                </span>
-              </button>
-
-              <button
-                class="carousel-button"
-                type="button"
-                data-carousel-next
-                aria-label="Próximo projeto"
-              >
-                <span
-                  class="material-symbols-outlined"
-                  aria-hidden="true"
-                >
-                  arrow_forward
-                </span>
-              </button>
-            </div>
-          </div>
+          <button
+            class="project-filter"
+            type="button"
+            data-project-filter="professional"
+            aria-pressed="false"
+          >
+            <span>Profissionais</span><span data-filter-count="professional">00</span>
+          </button>
         </div>
+
+        <div
+          class="project-grid"
+          data-projects
+          aria-live="polite"
+        >
+          <p class="project-load-error">Carregando projetos...</p>
+        </div>
+
+        <button
+          class="project-expand-button"
+          type="button"
+          data-project-expand
+          aria-expanded="false"
+          hidden
+        >
+          <span data-project-expand-label>Ver mais projetos</span>
+          <span
+            class="material-symbols-outlined"
+            aria-hidden="true"
+          >
+            expand_more
+          </span>
+        </button>
       </section>
 
-      <section class="border-y border-line bg-surface/40">
+      <section
+        id="stack"
+        class="border-y border-line bg-surface/40"
+      >
         <div class="mx-auto max-w-6xl px-6 py-16 lg:px-8 lg:py-20">
-          <div class="mb-9 flex flex-wrap items-end justify-between gap-4">
-            <p class="section-label">04 / Tecnologias</p>
+          <div class="mb-8 flex flex-wrap items-end justify-between gap-5">
+            <div>
+              <p class="section-label">04 / Stack</p>
 
-            <p
-              class="font-mono text-[10px] uppercase leading-5 tracking-[.12em] text-blue-300"
-              data-technology-summary
-            >
-              Carregando tecnologias...
-            </p>
+              <h2
+                class="mt-4 mb-2 text-3xl font-bold tracking-[-.05em] text-white sm:text-4xl"
+              >
+                Stack de trabalho<span class="text-blue-400">.</span>
+              </h2>
+            </div>
+
+            <p class="text-sm text-slate-400">Backend, interfaces e infraestrutura.</p>
           </div>
 
           <div
-            class="tech-groups"
-            data-technology-groups
+            class="stack-explorer"
+            data-stack-explorer
           >
-            <p class="project-load-error">Carregando tecnologias...</p>
+            <nav
+              class="stack-nav"
+              aria-label="Áreas da stack"
+              data-stack-nav
+            >
+              <p class="project-load-error">Carregando a stack...</p>
+            </nav>
+
+            <div
+              class="stack-panel"
+              data-stack-panel
+              aria-live="polite"
+            >
+              <p class="project-load-error">Carregando detalhes...</p>
+            </div>
           </div>
         </div>
       </section>
@@ -610,6 +581,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
   </body>
 </html>

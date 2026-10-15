@@ -1,6 +1,7 @@
 [
   {
     "name": "Auth API",
+    "category": "personal",
     "shortName": "AUTH",
     "type": "Projeto pessoal",
     "kind": "Autenticação REST com Node.js",
@@ -19,6 +20,7 @@
   },
   {
     "name": "AI Portfolio",
+    "category": "personal",
     "shortName": "AI PORTFOLIO",
     "type": "Projeto pessoal · Em desenvolvimento",
     "kind": "Portfólio, chat com IA e currículos ATS",
@@ -39,6 +41,7 @@
   },
   {
     "name": "Notification API",
+    "category": "personal",
     "shortName": "NOTIFICATIONS",
     "type": "Projeto pessoal",
     "kind": "Microsserviço de notificações em tempo real",
@@ -58,6 +61,7 @@
   },
   {
     "name": "FlowdeskAPI",
+    "category": "personal",
     "shortName": "FLOWDESK",
     "type": "Projeto pessoal",
     "kind": "API para gestão de chamados",
@@ -69,6 +73,7 @@
   },
   {
     "name": "Plataforma JOCA",
+    "category": "professional",
     "shortName": "JOCA",
     "type": "Projeto profissional · Levante Lab",
     "kind": "Recursos educacionais digitais · INJC/UFRJ",
@@ -80,6 +85,7 @@
   },
   {
     "name": "VisuoLab",
+    "category": "professional",
     "shortName": "VISUO",
     "type": "Projeto profissional · Levante Lab",
     "kind": "Plataforma inclusiva · Humboldt/UFSC",
@@ -91,6 +97,7 @@
   },
   {
     "name": "Ganza App",
+    "category": "professional",
     "shortName": "GANZA",
     "type": "Projeto profissional · Levante Lab",
     "kind": "Plataforma de cultivo medicinal",
@@ -102,6 +109,7 @@
   },
   {
     "name": "Horta que Rende",
+    "category": "professional",
     "shortName": "HORTA",
     "type": "Projeto profissional · Levante Lab",
     "kind": "Conteúdo e comunidade de cultivo",
@@ -113,6 +121,7 @@
   },
   {
     "name": "Cientistas do Mar",
+    "category": "professional",
     "shortName": "CIENTISTAS",
     "type": "Projeto profissional · Levante Lab",
     "kind": "Ciência cidadã e monitoramento costeiro-marinho",
@@ -124,6 +133,7 @@
   },
   {
     "name": "SignBank",
+    "category": "professional",
     "shortName": "SIGN",
     "type": "Projeto profissional · Levante Lab",
     "kind": "Pesquisa e documentação de línguas de sinais",
